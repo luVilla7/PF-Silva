@@ -168,9 +168,3 @@ img{
     background-position: 100%;
     margin-top: 40px;
 }
-
-@media (max-width: 768px) {
-    .backgroundmain {
-        min-height: 30vh;
-     }
-}
