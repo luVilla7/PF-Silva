@@ -62,7 +62,7 @@ h2 a{
 h2 a:hover{
     color: #F493E7;
 }
-footer{
+/* footer{ 
     background-color: #9b87dc;
     width: 100%;
     height: 70px;
@@ -70,7 +70,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
+
 img{
     width: 30px;
     height: 30px;
