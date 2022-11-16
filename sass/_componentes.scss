@@ -31,6 +31,11 @@ h2 a {
 
 .card-title {
     color: $color-main;
+    font-size: 25;
+}
+
+.card-text {
+    font-size: 25px;
 }
 
 .card-link {
@@ -82,9 +87,7 @@ img {
 
 .articulodelblog{
     color: $color-second;
-    display: flex;
-    text-align: center;
-    
+
     &:hover {
         text-decoration: underline;
         color: $color-main;

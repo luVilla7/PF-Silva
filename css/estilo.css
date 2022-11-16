@@ -26,6 +26,11 @@ h2 a:hover {
 
 .card-title {
   color: #9b87dc;
+  font-size: 25;
+}
+
+.card-text {
+  font-size: 25px;
 }
 
 .card-link {
@@ -75,8 +80,6 @@ img {
 
 .articulodelblog {
   color: #F493E7;
-  display: flex;
-  text-align: center;
 }
 .articulodelblog:hover {
   text-decoration: underline;
