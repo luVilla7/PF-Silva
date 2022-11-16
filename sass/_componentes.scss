@@ -1,5 +1,127 @@
+$color-main: #9b87dc;
+$color-second: #F493E7;
+$color-url: antiquewhite;
 
 .backgroundmain {
-    background-color: red;
-  
+    height: 700px;
+    width: 100%;
+    background: url(../img/yoga1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+h1 {
+    padding-top: 150px;
+    font-size: 60px;
+    text-align: center;
+    color: $color-url; 
+    text-shadow: 2px 2px black
+}
+
+h2 a {
+    color: $color-main;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-second;
+        text-decoration: underline;
+    }
+}
+
+.card-title {
+    color: $color-main;
+}
+
+.card-link {
+    color: $color-second;
+    text-decoration: none;
+
+     &:hover {
+        color: $color-main;
+        text-decoration: underline;
+     }
+}
+
+h3{
+    padding-top: 40px;
+    font-size: 60px;
+    text-align: center;
+    color: $color-url; 
+    text-shadow: 2px 2px black
+}
+
+.backgroundAlimentacion{
+    background: url(../img/alimentacion.jpeg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 30px;
+}
+
+.backgroundAlimentacionDiaria{
+    background: url(../img/alimentacion2.jpeg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+.blogImageHead{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.articulodelblog{
+    color: $color-second;
+    display: flex;
+    text-align: center;
+    
+    &:hover {
+        text-decoration: underline;
+        color: $color-main;
+    }
+}
+
+p{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/*espacio para centrar los links del blog*/
+
+.backgroundMeditacion {
+    background: url(../img/meditacion.jpeg);
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.backgroundKundalini {
+    background: url(../img/meditacion2.jpeg);
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.backgroundYoga{
+    background: url(../img/yoga3.jpeg);
+    margin-top: 60px;
+}
+
+.backgroundYogaFlow {
+    background: url(../img/yoga4.jpeg);
+    margin-top: 60px;
+    height: 500px;
 }

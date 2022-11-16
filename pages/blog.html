@@ -9,57 +9,62 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../CSS/style.css">
+<link rel="stylesheet" href="/css/estilo.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Arrebol</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./yoga.html">Yoga</a>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Arrebol</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/yoga.html">Yoga</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./meditacion.html">Meditación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./alimentacion.html">Alimentación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./blog.html">Blog</a>
-              </li>
-            </ul>      
-          </div>
-        </div>
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/meditacion.html">Meditación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/alimentacion.html">Alimentación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/blog.html">Blog</a>
+          </li>
+        </ul>      
+      </div>
+    </div>
+  </nav>
 
-    
+<!--contenido--> 
     <div class="blogPage">
         <h3>BLOG</h3>
        </div>
+
+       <img class="blogImageHead" src="../img/blog.jpeg" alt="yogaBlog"/>
+
        <main> 
         <section class="blogContainer">
             <article class="articleBlogContainer">
-                <h2><a href="#">Highlights del mes</a></h2>
+                <h2><a class="articulodelblog" href="#">Highlights del mes</a></h2>
         <p>
          Te contamos los eventos que tendremos en comunidad.
         </p>
             </article>
 
         <article class="articleBlogContainer">    
-         <h2><a href="#">Meditar sí es para todos</a></h2>
+         <h2><a class="articulodelblog" href="#">Meditar sí es para todos</a></h2>
         <p>
             Aunque nunca lo hayas hecho, cualquier momento es el perfecto para comenzar.
             Encuentra tu forma ideal de meditación.
         </p>
          </article>
          <article class="articleBlogContainer">    
-            <h2><a href="#">No cargues el mundo sobre tus hombros</a></h2>
+            <h2><a class="articulodelblog" href="#">No cargues el mundo sobre tus hombros</a></h2>
            <p>
                Con todo lo que tenemos que hacer diariamente, es fácil sentirse drenado. Te 
                contamos cómo contrarrestar esa sensación.
@@ -67,13 +72,16 @@
             </article>
     </section>
     </main>  
+    
+    <img class="blogImageHead" src="../img/blog2.jpeg" alt="yogaBlog"/>
+
     <section>
         <div class="blogBackground">
         </div>
     </section>
     <section class="blogContainer">
         <article class="articleBlogContainer">
-            <h2><a href="#">¿Por dónde empiezo?</a></h2>
+            <h2><a class="articulodelblog" href="#">¿Por dónde empiezo?</a></h2>
     <p>
      Si estás comenzando a practicar yoga o meditar, a veces puedes sentir que es mucho por absorber.
      Lee esta guía que te ayudará a integrar la información nueva.
@@ -81,38 +89,38 @@
         </article>
 
     <article class="articleBlogContainer">    
-     <h2><a href="#">La mejor hora para hacer tus prácticas</a></h2>
+     <h2><a class="articulodelblog" href="#">La mejor hora para hacer tus prácticas</a></h2>
     <p>
         ¿Practicar yoga o meditar antes de la salida del sol? ¿Hacerlo por las tardes?
         Decide en qué momento hacerlo con las características de cada horario y su razón de ser.
     </p>
      </article>
      </section>
+
+<!--footer-->
      <footer>
-        <ul>
-            <li><a href="./yoga.html">Yoga</a></li>
-            <li><a href="./meditacion.html">Meditación</a></li>
-            <li><a href="./alimentacion.html">Alimentación</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-       </ul>
-       <ul>
-        <li>
-            <img src="../img/facebook.png" alt="facebook">
-        </li>
-        <li>
-            <img src="../img/instagram.png" alt="insta">
-        </li>
-        <li>
-            <img src="../img/tiktok.png" alt="tk">
-        </li>
-        <li>
-            <img src="../img/twitter.png" alt="twitter">
-        </li>
-        <li>
-            <img src="../img/youtube.png" alt="yt">
-        </li>    
-       </ul>
+        <div class="container-fluid">
+
+          <div class="row mt-5 bg-light">
+           
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-sm-1 mb-md-1">
+            <a class="text-decoration-none" href="../pages/yoga.html">Yoga</a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-sm-1 mb-md-1">
+            <a class="text-decoration-none" href="../pages/meditacion.html">Meditación</a>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-md-1">
+            <a class="text-decoration-none" href="../pages/alimentacion.html">Alimentación</a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-md-1">
+            <a class="text-decoration-none" href="../pages/blog.html">Blog</a>
+            </div>
+       
     </footer>
+
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
