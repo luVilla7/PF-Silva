@@ -1,6 +1,5 @@
 @use 'componentes';
 
-.header {
-    width: 100%;
-    background-image: linear-gradient(to right, $color-main, $color-second);
+.nav-link {
+    color: $color-url;
 }
