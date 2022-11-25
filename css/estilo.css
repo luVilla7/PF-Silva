@@ -50,6 +50,20 @@ h3 {
   text-shadow: 2px 2px black;
 }
 
+footer {
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #9b87dc;
+  color: whitesmoke;
+}
+
 .backgroundAlimentacion {
   background: url(../img/alimentacion.jpeg);
   width: 100%;
