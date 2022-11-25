@@ -1,1 +1,15 @@
 @use 'componentes';
+
+footer{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $color-main;
+    color: whitesmoke;
+}
