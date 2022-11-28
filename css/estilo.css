@@ -52,17 +52,21 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.social-icon {
+.social-icon,
+.menu-footer {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px 0;
+  flex-wrap: wrap;
 }
 
-.social-icon li {
+.social-icon li,
+.menu-footer li {
   list-style: none;
 }
 
@@ -70,6 +74,30 @@ footer {
   font-size: 2em;
   color: antiquewhite;
   margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon li a:hover {
+  transform: translateY(-10px);
+}
+
+.menu-footer li a {
+  font-size: 1.2em;
+  color: antiquewhite;
+  margin: 0 30px;
+  display: inline-block;
+  text-decoration: none;
+}
+.menu-footer li a:hover {
+  text-decoration: underline;
+  color: #F493E7;
+}
+
+.copyright {
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
 }
 
 .backgroundAlimentacion {
