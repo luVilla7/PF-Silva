@@ -48,27 +48,34 @@ h2 a {
      }
 }
 
-
-h3{
-    padding-top: 40px;
-    font-size: 60px;
-    text-align: center;
-    color: $color-url; 
-    text-shadow: 2px 2px black
-}
-
-footer{
-    position: bottom;
-    bottom: 0;
-    left: 0;
-    height: fit-content;
+footer {
+    position: relative;
     width: 100%;
+    background: $color-main;
+    min-height: 100px;
+    padding: 20px 50px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: $color-main;
-    color: whitesmoke;
+}
+
+.social-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    font-size: 2em;
+    color: $color-url;
+    margin: 0 10px;
 }
 
 .backgroundAlimentacion{
