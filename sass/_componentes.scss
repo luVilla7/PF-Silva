@@ -3,7 +3,7 @@ $color-second: #F493E7;
 $color-url: antiquewhite;
 
 .backgroundmain {
-    height: 700px;
+    height: 500px;
     width: 100%;
     background: url(../img/yoga1.jpeg);
     background-repeat: no-repeat;
@@ -166,16 +166,23 @@ footer {
 .backgroundAlimentacion{
     background: url(../img/alimentacion.jpeg);
     width: 100%;
-    height: auto;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: 100%;
     margin-top: 30px;
 }
 
+h3 {
+    color: $color-url;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
 .backgroundAlimentacionDiaria{
     background: url(../img/alimentacion2.jpeg);
     width: 100%;
-    height: auto;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 40px;
